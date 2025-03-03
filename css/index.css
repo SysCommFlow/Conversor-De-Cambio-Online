@@ -1,0 +1,15 @@
+@import url("variables.css");
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-primary);
+    font-size: 1em;
+}
+
+body{
+    background: var(--color-whitesmoke);
+    text-align: center;
+}
+h1{
+    color: var(--color-primary);
+}
