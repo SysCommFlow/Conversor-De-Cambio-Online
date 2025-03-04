@@ -1,0 +1,82 @@
+@import url('variable_default.css');
+
+@keyframes Animations {
+    25%{
+        /*#asideAnimation{*/
+            border: 2px solid rgba(22, 45, 102, .3);
+            color: rgb(22, 45, 102);
+            transform: scale(1);
+        /*}*/
+    }
+
+    50%{
+        /*#asideAnimation{*/
+            border: 2px solid rgba(1, 124, 206, 0.87);
+            color: rgb(0, 0, 0);
+            transform: scale(1.05);
+        /*}*/
+    }
+    75%{
+        /*#asideAnimation{*/
+            border: 2px solid rgba(22, 45, 102, .3);
+            color: rgb(22, 45, 102);
+            transform: scale(1.2);
+        /*}*/
+    }
+    100%{
+        /*#asideAnimation{*/
+            border: 2px solid rgba(22, 45, 102, .3);
+            color: rgb(22, 45, 102);
+            transform: scale(1);
+        /*}*/
+    }
+}
+
+@keyframes animationSelectedPhoto {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+  }
+
+    @keyframes animationBtnDefault
+    {
+        0%
+        {
+            background-color: rgba(22, 45, 102, 1);
+            color: #f9f9f9;
+        }
+    
+        100%
+        {
+            background-color: rgba(1, 124, 206, 1);
+            color: #f0efef;
+        }
+    
+    }
+
+    @keyframes animationInput
+    {
+        0%
+        {
+            border-left-color: var(--color-six);
+            border-right-color: var(--color-nine);
+            border-top-color: var(--color-six);
+            border-bottom-color: var(--color-nine);
+        }
+    
+        100%
+        {
+            border-left-color: var(--color-nine);
+            border-right-color: var(--color-six);
+            border-top-color: var(--color-nine);
+            border-bottom-color: var(--color-six);
+        }
+    
+    }
