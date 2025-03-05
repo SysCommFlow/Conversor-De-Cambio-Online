@@ -1,0 +1,16 @@
+:root{
+    /*
+    # Colors
+    */
+    --color-primary: rgba(22, 45, 102, 1);
+    --color-secundary: dodgerblue;
+    --color-third: #f9f9f9;
+    --color-fourd: white;
+    --color-whitesmoke: whitesmoke;
+    /*
+    # Fonts
+    */
+    --font-primary:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-secundary: Arial, Helvetica, sans-serif;;
+}
+
